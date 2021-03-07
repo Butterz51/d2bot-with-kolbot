@@ -61,6 +61,10 @@ function LoadConfig() {
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
+		Config.ClearType2 = false; // Monster spectype to kill in tombs clear scripts (ie. Tombs). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+		Config.Tombs.PortalLeech = false; // Set to true to open a portal for leechers. When set to true will auto clear the Tombs.
+		Config.Tombs.TPMessage = "The tomb TP is up! You have 10 seconds till I cast BO";
+		Config.Tombs.WalkClear = false; // Disable teleport while clearing to protect leechers
 	Scripts.Duriel = false;
 
 	// *** act 3 ***

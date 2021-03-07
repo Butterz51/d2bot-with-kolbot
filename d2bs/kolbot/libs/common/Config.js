@@ -467,6 +467,12 @@ var Config = {
 		Leader: "",
 		Wait: 120
 	},
+	Tombs: {
+		ClearType2: false,
+		PortalLeech: false,
+		TPMessage: "The tomb TP is up! You have 10 seconds till I cast BO",
+		WalkClear: false
+	},
 	TravincalLeech: {
 		Leader: "",
 		Helper: false,
